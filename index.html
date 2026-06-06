@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV - Alexis Antonio Arias Castro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="toolbar no-print" aria-label="Opciones del CV">
+      <button class="btn btn-outline-primary" type="button" id="languageToggle">English Version</button>
+      <button class="btn btn-primary" type="button" id="printCv">Imprimir CV</button>
+      <div class="btn-group" role="group" aria-label="Cambiar tema">
+        <button class="btn btn-outline-primary active" type="button" data-theme-option="light">Claro</button>
+        <button class="btn btn-outline-primary" type="button" data-theme-option="dark">Oscuro</button>
+        <button class="btn btn-outline-primary" type="button" data-theme-option="teal">Teal</button>
+      </div>
+      <label class="font-control">
+        <span id="fontSizeLabel">Tamaño</span>
+        <input id="fontSize" type="range" min="92" max="108" value="100" aria-label="Ajustar tamaño de fuente">
+      </label>
+    </div>
+
+    <main class="cv-shell">
+      <article class="cv-page" aria-label="Curriculum vitae">
+        <header class="cv-header">
+          <div class="header-main">
+            <img class="profile-photo" src="Alex2.jpg" alt="Foto profesional de Alexis Antonio Arias Castro">
+            <div>
+              <p class="eyebrow">Curriculum Vitae</p>
+              <h1>Alexis Antonio Arias Castro</h1>
+              <p class="role">Docente | Innovación educativa | Competencias digitales</p>
+            </div>
+          </div>
+          <address class="contact-list">
+            <span>Santo Domingo, Rep. Dom.</span>
+            <span>Teléfono: 809-520-4515</span>
+            <span>Email: aarias4ver@gmail.com</span>
+          </address>
+        </header>
+
+        <div class="cv-grid">
+          <aside class="sidebar">
+            <section class="cv-section">
+              <h2>Perfil</h2>
+              <p>
+                Docente universitario y del Ministerio de Educación de la
+                República Dominicana (MINERD), dedicado a la enseñanza desde
+                2016. Profesional con formación en derecho, docencia virtual,
+                innovación pedagógica y competencias digitales, con alta
+                capacidad de aprendizaje autónomo, adaptación a nuevas
+                herramientas y compromiso con experiencias educativas claras,
+                inclusivas y orientadas al desarrollo integral del estudiante.
+              </p>
+            </section>
+
+            <section class="cv-section">
+              <h2>Habilidades</h2>
+              <div class="skill-meter" data-level="100">
+                <span>Docencia virtual</span>
+                <div><i></i></div>
+              </div>
+              <div class="skill-meter" data-level="100">
+                <span>Innovación educativa</span>
+                <div><i></i></div>
+              </div>
+              <div class="skill-meter" data-level="100">
+                <span>Competencias digitales</span>
+                <div><i></i></div>
+              </div>
+              <div class="skill-meter" data-level="78">
+                <span>Herramientas tecnológicas</span>
+                <div><i></i></div>
+              </div>
+              <div class="skill-meter" data-level="82">
+                <span>HTML5</span>
+                <div><i></i></div>
+              </div>
+              <div class="skill-meter" data-level="80">
+                <span>CSS3</span>
+                <div><i></i></div>
+              </div>
+              <div class="skill-meter" data-level="72">
+                <span>JavaScript</span>
+                <div><i></i></div>
+              </div>
+            </section>
+
+            <section class="cv-section">
+              <h2>Idiomas</h2>
+              <ul class="compact-list">
+                <li>Español: nativo</li>
+                <li>Inglés: Adult Advanced English Courses</li>
+              </ul>
+            </section>
+
+            <section class="cv-section">
+              <h2>Competencias</h2>
+              <ul class="compact-list">
+                <li>Planificación didáctica</li>
+                <li>Gestión de aulas virtuales</li>
+                <li>Evaluación de aprendizajes</li>
+                <li>Diseño de recursos educativos</li>
+                <li>Comunicación efectiva</li>
+              </ul>
+            </section>
+
+            <section class="cv-section">
+              <h2>Herramientas digitales</h2>
+              <ul class="compact-list">
+                <li>Blackboard</li>
+                <li>Microsoft Teams</li>
+                <li>Class (Virtual Classroom)</li>
+                <li>Google Classroom</li>
+                <li>Google Sites</li>
+                <li>Recursos multimedia</li>
+                <li>Canva</li>
+              </ul>
+            </section>
+
+            <section class="cv-section">
+              <h2>Competencias personales</h2>
+              <ul class="compact-list">
+                <li>Comunicación asertiva</li>
+                <li>Liderazgo pedagógico</li>
+                <li>Empatía</li>
+                <li>Adaptabilidad</li>
+                <li>Aprendizaje autónomo</li>
+                <li>Resolución de problemas</li>
+                <li>Trabajo colaborativo</li>
+                <li>Responsabilidad</li>
+              </ul>
+            </section>
+          </aside>
+
+          <div class="main-column">
+            <section class="cv-section">
+              <h2>Experiencia Profesional</h2>
+              <article class="timeline-item">
+                <div class="item-meta">2016 - Actualidad</div>
+                <div>
+                  <h3>Docente de la Escuela de Idiomas y Ciclo Común</h3>
+                  <p><strong>Universidad del Caribe</strong></p>
+                  <p>
+                    Docencia en programas académicos de la institución,
+                    acompañamiento de procesos de enseñanza-aprendizaje,
+                    orientación a estudiantes universitarios y fortalecimiento
+                    de competencias académicas y profesionales.
+                  </p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="item-meta">2015 - Actualidad</div>
+                <div>
+                  <h3>Docente Técnico Profesional · MINERD</h3>
+                  <p><strong>Instituto Politécnico Salesiano Padre Bartolomé Vegh</strong></p>
+                  <p>
+                    Formación técnico profesional con enfoque práctico,
+                    disciplina académica y acompañamiento continuo, integrando
+                    recursos pedagógicos y tecnológicos para favorecer el
+                    aprendizaje y la preparación laboral de los estudiantes.
+                  </p>
+                </div>
+              </article>
+            </section>
+
+            <section class="cv-section">
+              <h2>Educación</h2>
+              <article class="timeline-item">
+                <div class="item-meta">2010</div>
+                <div>
+                  <h3>Licenciado en Derecho</h3>
+                  <p>
+                    Universidad del Caribe.
+                  </p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="item-meta">2014</div>
+                <div>
+                  <h3>Certificación en Habilitación Docente</h3>
+                  <p>
+                    Universidad del Caribe. Duración: 306 horas.
+                  </p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="item-meta">Docencia virtual</div>
+                <div>
+                  <h3>Certificación en Docencia Virtual</h3>
+                  <p>
+                    Universidad Benito Juárez.
+                  </p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="item-meta">Inglés</div>
+                <div>
+                  <h3>Adult Advanced English Courses</h3>
+                  <p>
+                    Instituto Cultural Dominico Americano.
+                  </p>
+                </div>
+              </article>
+            </section>
+
+            <section class="cv-section">
+              <h2>Certificaciones</h2>
+              <div class="cert-grid">
+                <a class="cert-card" href="doc/Título Universitario.pdf" target="_blank" rel="noopener">
+                  <strong>Título Universitario</strong>
+                  <span>Licenciado en Derecho, Universidad del Caribe</span>
+                </a>
+                <a class="cert-card" href="doc/Habilitacion-Docente.jpeg" target="_blank" rel="noopener">
+                  <strong>Certificación en Habilitación Docente</strong>
+                  <span>Universidad del Caribe, 306 horas, 2014</span>
+                </a>
+                <a class="cert-card" href="doc/Certificado Adult Advanced English Courses.pdf" target="_blank" rel="noopener">
+                  <strong>Adult Advanced English Courses</strong>
+                  <span>Instituto Cultural Dominico Americano</span>
+                </a>
+                <a class="cert-card" href="doc/Certificación en Docencia Virtual - Universidad Benito Juárez.pdf" target="_blank" rel="noopener">
+                  <strong>Certificación en Docencia Virtual</strong>
+                  <span>Universidad Benito Juárez</span>
+                </a>
+                <a class="cert-card" href="doc/Diplomado-Docente-Virtual.jpeg" target="_blank" rel="noopener">
+                  <strong>Diplomado Docente Virtual</strong>
+                  <span>MESCYT, FLEI y Blackboard, 80 horas, 2022</span>
+                </a>
+                <a class="cert-card" href="doc/Alexis Antonio Arias Castro (2).pdf" target="_blank" rel="noopener">
+                  <strong>Competencias Digitales e Innovación Docente</strong>
+                  <span>104 horas, 2024</span>
+                </a>
+                <a class="cert-card" href="doc/Certificado en Excelencia en Enseñanza y Aprendizaje Digital.pdf" target="_blank" rel="noopener">
+                  <strong>Excelencia en Enseñanza y Aprendizaje Digital</strong>
+                  <span>Certificado disponible</span>
+                </a>
+                <a class="cert-card" href="doc/Aplicación de nuevas prácticas en Docencia Virtual.pdf" target="_blank" rel="noopener">
+                  <strong>Nuevas prácticas en Docencia Virtual</strong>
+                  <span>Taller, 9 horas</span>
+                </a>
+                <a class="cert-card" href="doc/Certificado curso taller - Utilidad Pedagógica de los Dispositivos Tecnológicos en el Aula.pdf" target="_blank" rel="noopener">
+                  <strong>Dispositivos Tecnológicos en el Aula</strong>
+                  <span>Utilidad pedagógica</span>
+                </a>
+                <a class="cert-card" href="doc/Coursera-Habilidades Docente.pdf" target="_blank" rel="noopener">
+                  <strong>Habilidades Docentes</strong>
+                  <span>Coursera</span>
+                </a>
+              </div>
+            </section>
+
+            <section class="cv-section">
+              <h2>Proyectos y Publicaciones</h2>
+              <div class="accordion no-print" id="projectsAccordion">
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectOne" aria-expanded="false" aria-controls="projectOne">
+                      Espacio para proyecto educativo destacado
+                    </button>
+                  </h3>
+                  <div id="projectOne" class="accordion-collapse collapse" data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                      Pendiente de completar con nombre del proyecto, objetivo,
+                      tecnologías usadas, población impactada y resultado.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="print-only">
+                Proyecto destacado pendiente de completar con objetivo, alcance y resultados.
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <footer class="cv-footer">
+          <span>Referencias disponibles a solicitud.</span>
+          <span>CV preparado para pantalla e impresión a color.</span>
+        </footer>
+      </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
